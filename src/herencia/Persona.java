@@ -30,10 +30,9 @@ public class Persona {
         this.nombre = nombre;
     }
     
+    @Override
     public String toString(){
         return "Nombre: " + this.getNombre() + " Edad: " + this.getEdad();
     }
-    
-    
     
 }
